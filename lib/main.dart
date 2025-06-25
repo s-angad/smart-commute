@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'android_bridge.dart';
 import 'loading_screen.dart';
-import 'package:url_launcher/url_launcher.dart'; // Import url_launcher
+import 'package:url_launcher/url_launcher.dart'; 
 
-// RouteResultsScreen is now a StatefulWidget to manage tabs
 class RouteResultsScreen extends StatefulWidget {
   final String routeResultText;
   final String source;
