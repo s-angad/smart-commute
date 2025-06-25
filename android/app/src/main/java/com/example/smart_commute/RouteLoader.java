@@ -1,4 +1,4 @@
-package com.example.smart_commute_fix; // Make sure this matches your folder path
+package com.example.smart_commute_fix; 
 
 import java.util.*;
 
@@ -128,7 +128,6 @@ public class RouteLoader {
         return routeNames;
     }
 
-    //  NEW: This method will be called by Flutter
     public static String computeRoute(String source, String destination) {
         List<RouteInfo> allRoutes = findRoutes(source, destination);
 
